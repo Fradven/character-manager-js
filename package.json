@@ -1,0 +1,28 @@
+{
+  "name": "spiderman",
+  "version": "1.0.0",
+  "description": "character-manager DUO project",
+  "main": "index.js",
+  "dependencies": {
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "parcel": "^2.0.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mika215/Spiderman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mika215/Spiderman/issues"
+  },
+  "homepage": "https://github.com/Mika215/Spiderman#readme"
+}
